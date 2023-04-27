@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto1 Mi Geolocalización</title>
+	<link href="./estiloproyecto1.css" rel="stylesheet">
+<script type="text/javascript" src="proyecto1.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+</head>
+<body>
+	<main>
+		<h1 class="principal">Mi geolocalización</h1>
+	</main>
+	<div id="map" class="map"></div>
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8rclNX0lSZ5mYKyUSBpFYeLyq__xB1ZQ&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <br>
+<button class= "boton" onclick="getlocation()">Ver mi ubicación</button>
+<div id="geolocalizacion"></div>
+
+</body>
+</html>
