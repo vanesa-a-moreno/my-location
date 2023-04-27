@@ -1,2 +1,2 @@
 # my-location
-Primer proyecto, utilizo api de Google para geolocalización 😄
+Primer proyecto, utilizo API de Google Maps para geolocalización 😄.
